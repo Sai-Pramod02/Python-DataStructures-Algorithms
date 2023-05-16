@@ -8,7 +8,7 @@ Modes:
 "x" - Creates file if not exists
 "+" - Read and Write
 """
-f = open("Pramod.txt","rt")
+f = open("Pramod.txt", "rt")
 content = f.read()
 print(content)
 # content = f.read(3)    reads the next part of the content

@@ -1,23 +1,23 @@
 def dateTime():
     import datetime
     return datetime.datetime.now()
-with open("PramodHMS_Exercises.txt",'w') as f:
+with open("PramodHMS_Exercises.txt", 'w') as f:
     f.write("Bench Press\n")
     f.write("Inclined Bech Press\n")
     f.write("Dumbell Press\n")
     f.write("Cable Cross Over\n")
-with open("PramodHMS_Diet.txt","w") as f:
+with open("PramodHMS_Diet.txt", "w") as f:
     f.write("Bread and Peanut Butter\n")
     f.write("Milkshake\n")
     f.write("Lunch consisting of high protein\n")
     f.write("Banana and watermelon\n")
     f.write("Protein Shake\n")
-with open("RiyaHMS_Exercises.txt",'w') as f:
+with open("RiyaHMS_Exercises.txt", 'w') as f:
     f.write("Situps\n")
     f.write("Bicep Curls\n")
     f.write("Concentration curls\n")
     f.write("EZ Bar curls\n")
-with open("RiyaHMS_Diet.txt","w") as f:
+with open("RiyaHMS_Diet.txt", "w") as f:
     f.write("Oats\n")
     f.write("Milkshake\n")
     f.write("Lunch consisting of high protein\n")
