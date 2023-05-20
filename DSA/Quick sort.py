@@ -19,4 +19,9 @@ def quickSort(arr,low,high):
         quickSort(arr,pIndex+1,high)
     return arr
 
-print(quickSort([4,6,2,5,7,9,1,3],0,7))
+def Question(arr):
+
+    quickSort(arr,0,len(arr)-1)
+    return arr
+
+print(Question([4,6,2,5,7,9,1,3]))
