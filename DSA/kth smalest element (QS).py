@@ -1,4 +1,4 @@
-
+#Finding the Kth smallest element in ar array which also consists of duplicates
 def partitionIndex(arr,low,high):
     pivot = arr[low]
     i=low
